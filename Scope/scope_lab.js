@@ -26,6 +26,40 @@ function show(){
     }
     show();
     
-    console.log(functionVar); // Throws ReferenceError
-    console.log(functionLet); // Throws ReferenceError
-    console.log(functionConst); // Throws ReferenceError
+    //console.log(functionVar); // Throws ReferenceError
+    //console.log(functionLet); // Throws ReferenceError
+    //console.log(functionConst); // Throws ReferenceError
+
+    // ==================
+// PRACTICE TASK
+// ==================
+
+// Block with var, let and const
+{
+    // Declare variables
+    var practiceVar = "I'm a var";
+    let practiceLet = "I'm a let";
+    const practiceConst = "I'm a const";
+
+    console.log("=== Inside Block ===");
+    console.log(practiceVar);
+    console.log(practiceLet);
+    console.log(practiceConst);
+
+    // Try to reassign INSIDE the block
+    practiceVar = "var reassigned inside ✅";
+    practiceLet = "let reassigned inside ✅";
+    // practiceConst = "const reassigned inside"; // ❌ ERROR - const cannot be reassigned!
+
+    console.log("=== After Reassignment Inside Block ===");
+    console.log(practiceVar);
+    console.log(practiceLet);
+    console.log(practiceConst);
+}
+
+// Try to reassign OUTSIDE the block
+console.log("=== Outside Block ===");
+practiceVar = "var reassigned outside ✅";
+console.log(practiceVar); // ✅ Works - var escapes block!
+console.log(practiceLet); // ❌ ReferenceError - let stays inside!
+console.log(practiceConst); // ❌ ReferenceError - const stays inside!
