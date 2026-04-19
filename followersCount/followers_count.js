@@ -27,3 +27,9 @@ function checkCountValue() {
     checkCountValue(); // Check count value and display messages
   }
   
+  // Reset count back to 0
+function resetCount() {
+    count = 0;                    // Set count back to 0
+    displayCount();               // Update page to show 0
+    alert("Followers count has been reset! 🔄"); // Show alert
+}
