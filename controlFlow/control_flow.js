@@ -45,3 +45,31 @@ console.log("User Category:", userCategory);
 let isAuthenticated = true;
 let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
 console.log("Authentication Status:", authenticationStatus);
+
+// ==================
+// PRACTICE TASK
+// Dietary Services Authorization
+// ==================
+
+let personRole = "Non-Subscriber"; // Change this to test different roles
+let accessMessage;
+
+switch(personRole) {
+    case "Employee":
+        accessMessage = "Access Granted! You are authorized to have full access to Dietary Services. 🥗";
+        break;
+    case "Enrolled Member":
+        accessMessage = "Access Granted! You are authorized to have full access to Dietary Services and one-on-one interaction with a dietician. 👨‍⚕️";
+        break;
+    case "Subscriber":
+        accessMessage = "Partial Access Granted! You are authorized to have partial access to Dietary Services only. ⚠️";
+        break;
+    case "Non-Subscriber":
+        accessMessage = "Access Denied! You need to enroll or subscribe first to avail this facility. ❌";
+        break;
+    default:
+        accessMessage = "Unknown Role! Please contact the administrator. 🚫";
+}
+
+console.log("Role:", personRole);
+console.log("Access Status:", accessMessage);
