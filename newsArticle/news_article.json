@@ -1,0 +1,46 @@
+{
+    "articles": [
+      {
+        "title": "Global Climate Summit Reaches Historic Agreement",
+        "description": "World leaders gathered in Geneva have signed a landmark climate agreement aimed at reducing carbon emissions by 50% before 2035.",
+        "key_points": [
+          "195 countries signed the agreement.",
+          "Funding of $500 billion pledged for green energy transition.",
+          "Annual progress reviews will be mandatory for all signatories."
+        ],
+        "impact": [
+          "Significant reduction in global carbon emissions expected.",
+          "Thousands of green energy jobs to be created worldwide.",
+          "Improved air quality in major cities globally."
+        ]
+      },
+      {
+        "title": "Breakthrough in Artificial Intelligence Research",
+        "description": "Scientists have developed a new AI model capable of diagnosing diseases with 99% accuracy, potentially transforming the healthcare industry.",
+        "key_points": [
+          "The model was trained on over 10 million medical records.",
+          "It can diagnose over 50 different conditions.",
+          "Clinical trials begin next year across 20 hospitals."
+        ],
+        "impact": [
+          "Faster and more accurate disease diagnosis.",
+          "Reduced workload for medical professionals.",
+          "Improved patient outcomes and survival rates."
+        ]
+      },
+      {
+        "title": "Stock Markets Hit Record Highs",
+        "description": "Global stock markets surged to record highs this week driven by strong corporate earnings and positive economic data from major economies.",
+        "key_points": [
+          "The S&P 500 crossed 6000 points for the first time.",
+          "Tech stocks led the rally with gains of over 5%.",
+          "Investor confidence at its highest level in a decade."
+        ],
+        "impact": [
+          "Increased consumer spending expected.",
+          "Growth in retirement and investment portfolios.",
+          "Boost to overall economic confidence globally."
+        ]
+      }
+    ]
+}
